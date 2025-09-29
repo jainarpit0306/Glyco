@@ -4,16 +4,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.card.MaterialCardView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected int getLayoutResourceId() {
+        return R.layout.activity_main;
+    }
 
+    @Override
+    protected void initializeActivity() {
+        super.initializeActivity();
         // Initialize UI components
         initializeViews();
     }
@@ -103,7 +105,28 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void showToast(String message) {
+    @Override
+    protected void onMenuClicked() {
+        // Custom menu behavior for MainActivity
+        showToast("Main Menu - Dashboard navigation options 📱");
+    }
+
+    @Override
+    protected void onChatClicked() {
+        // Custom chat behavior for MainActivity
+        showToast("Chat with your healthcare team - Feature coming soon! 💬");
+    }
+
+    @Override
+    protected void onNotificationsClicked() {
+        // Custom notification behavior for MainActivity
+        int count = getNotificationCount();
+        showToast("Dashboard Notifications - " + count + " new updates 📊");
+        // Clear notifications
+        updateNotificationBadge(0);
+    }
+
+    protected void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }

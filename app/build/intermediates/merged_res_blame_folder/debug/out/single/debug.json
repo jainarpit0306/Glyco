@@ -48,12 +48,16 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\circle_background.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.xml.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\splash_background.xml"
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_about.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\anim_float_down.xml.flat",
@@ -80,6 +84,10 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_visibility.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_language_dropdown_background.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\language_dropdown_background.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -92,12 +100,24 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_emergency.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_language.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_language.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_goals.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_goals.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_rules.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_topbar.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\layout\\layout_topbar.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_animated_background.xml.flat",
@@ -122,6 +142,10 @@
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_notifications.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news_room_image.xml.flat",
@@ -160,6 +184,10 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_arrow_down.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lab.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_lab.xml"
     },
@@ -174,6 +202,10 @@
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_form_background.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\login_form_background.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_menu.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_glucose.xml.flat",
@@ -226,6 +258,14 @@
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_fade_in_animation.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\text_fade_in_animation.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_navigation_drawer.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\layout\\layout_navigation_drawer.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_pulse_animation.xml.flat",
