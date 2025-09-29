@@ -1,27 +1,43 @@
 package com.glyco.app;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AnticipateOvershootInterpolator;
+import android.view.animation.DecelerateInterpolator;
+import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginActivity extends AppCompatActivity {
 
     private EditText etEmail, etPassword;
-    private TextInputLayout tilEmail, tilPassword;
     private Button btnLogin;
-    private TextView tvForgotPassword, tvSignUp;
     private ProgressBar progressBar;
+    private ImageView ivPasswordToggle;
+    private boolean isPasswordVisible = false;
+    
+    // Animation views
+    private MaterialCardView logoContainer;
+    private ImageView logoImage;
+    private LinearLayout logoSection;
+    private TextView tvAppName, tvTagline;
+    private LinearLayout loginFormContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,21 +46,28 @@ public class LoginActivity extends AppCompatActivity {
 
         initializeViews();
         setupClickListeners();
+        startLogoAnimation();
     }
 
     private void initializeViews() {
         etEmail = findViewById(R.id.et_email);
         etPassword = findViewById(R.id.et_password);
-        tilEmail = findViewById(R.id.til_email);
-        tilPassword = findViewById(R.id.til_password);
         btnLogin = findViewById(R.id.btn_login);
-        // Removed forgot password and sign up UI from layout
         progressBar = findViewById(R.id.progress_bar);
+        ivPasswordToggle = findViewById(R.id.iv_password_toggle);
+        
+        // Initialize animation views
+        logoSection = findViewById(R.id.logo_section);
+        logoContainer = findViewById(R.id.logo_container);
+        logoImage = findViewById(R.id.logo_image);
+        tvAppName = findViewById(R.id.tv_app_name);
+        tvTagline = findViewById(R.id.tv_tagline);
+        loginFormContainer = findViewById(R.id.login_form_container);
     }
 
     private void setupClickListeners() {
         btnLogin.setOnClickListener(v -> handleLogin());
-        // No other actions needed
+        ivPasswordToggle.setOnClickListener(v -> togglePasswordVisibility());
     }
 
     private void handleLogin() {
@@ -56,31 +79,31 @@ public class LoginActivity extends AppCompatActivity {
     private boolean validateForm() {
         boolean isValid = true;
         
-        // Clear previous errors
-        tilEmail.setError(null);
-        tilPassword.setError(null);
-
         // Email validation
         String email = etEmail.getText().toString().trim();
         if (TextUtils.isEmpty(email)) {
-            tilEmail.setError("Email is required");
+            etEmail.setError("Email is required");
             isValid = false;
         } else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            tilEmail.setError("Please enter a valid email address");
+            etEmail.setError("Please enter a valid email address");
             isValid = false;
+        } else {
+            etEmail.setError(null);
         }
 
         // Password validation
         String password = etPassword.getText().toString().trim();
         if (TextUtils.isEmpty(password)) {
-            tilPassword.setError("Password is required");
+            etPassword.setError("Password is required");
             isValid = false;
         } else if (password.length() < 6) {
-            tilPassword.setError("Password must be at least 6 characters");
+            etPassword.setError("Password must be at least 6 characters");
             isValid = false;
         } else if (password.length() > 50) {
-            tilPassword.setError("Password is too long (max 50 characters)");
+            etPassword.setError("Password is too long (max 50 characters)");
             isValid = false;
+        } else {
+            etPassword.setError(null);
         }
 
         return isValid;
@@ -146,5 +169,159 @@ public class LoginActivity extends AppCompatActivity {
     public void onBackPressed() {
         // Prevent going back to splash screen
         moveTaskToBack(true);
+    }
+    
+    private void startLogoAnimation() {
+        // Set initial state - make logo invisible and positioned for animation
+        logoContainer.setAlpha(0f);
+        logoContainer.setScaleX(0.1f);
+        logoContainer.setScaleY(0.1f);
+        logoContainer.setRotation(180f);
+        logoContainer.setTranslationY(-30f);
+        
+        // Set initial state for text views
+        tvAppName.setAlpha(0f);
+        tvAppName.setTranslationY(50f);
+        tvAppName.setScaleX(0.8f);
+        tvAppName.setScaleY(0.8f);
+        
+        tvTagline.setAlpha(0f);
+        tvTagline.setTranslationY(30f);
+        
+        // Set initial state for login form
+        loginFormContainer.setAlpha(0f);
+        loginFormContainer.setTranslationY(50f);
+        
+        // Start the animation sequence
+        animateAppName();
+    }
+    
+    private void animateAppName() {
+        // App name animation - fade in with scale and translation
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(tvAppName, "alpha", 0f, 1f);
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(tvAppName, "translationY", 50f, 0f);
+        ObjectAnimator scaleX = ObjectAnimator.ofFloat(tvAppName, "scaleX", 0.8f, 1.0f);
+        ObjectAnimator scaleY = ObjectAnimator.ofFloat(tvAppName, "scaleY", 0.8f, 1.0f);
+        
+        AnimatorSet appNameSet = new AnimatorSet();
+        appNameSet.playTogether(alpha, translationY, scaleX, scaleY);
+        appNameSet.setDuration(1200);
+        appNameSet.setInterpolator(new AccelerateDecelerateInterpolator());
+        appNameSet.setStartDelay(500);
+        
+        appNameSet.addListener(new android.animation.AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(android.animation.Animator animation) {
+                animateTagline();
+            }
+        });
+        
+        appNameSet.start();
+    }
+    
+    private void animateTagline() {
+        // Tagline animation - fade in with translation
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(tvTagline, "alpha", 0f, 1f);
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(tvTagline, "translationY", 30f, 0f);
+        
+        AnimatorSet taglineSet = new AnimatorSet();
+        taglineSet.playTogether(alpha, translationY);
+        taglineSet.setDuration(1000);
+        taglineSet.setInterpolator(new AccelerateDecelerateInterpolator());
+        taglineSet.setStartDelay(200);
+        
+        taglineSet.addListener(new android.animation.AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(android.animation.Animator animation) {
+                animateLogoContainer();
+            }
+        });
+        
+        taglineSet.start();
+    }
+    
+    private void animateLogoContainer() {
+        // Logo container animation - rotation and scale with glow effect
+        ObjectAnimator scaleX = ObjectAnimator.ofFloat(logoContainer, "scaleX", 0.1f, 1.2f, 1.0f);
+        ObjectAnimator scaleY = ObjectAnimator.ofFloat(logoContainer, "scaleY", 0.1f, 1.2f, 1.0f);
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(logoContainer, "alpha", 0f, 1f);
+        ObjectAnimator rotation = ObjectAnimator.ofFloat(logoContainer, "rotation", 180f, 0f);
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(logoContainer, "translationY", -30f, 0f);
+        
+        AnimatorSet logoSet = new AnimatorSet();
+        logoSet.playTogether(scaleX, scaleY, alpha, rotation, translationY);
+        logoSet.setDuration(1200);
+        logoSet.setInterpolator(new AnticipateOvershootInterpolator());
+        logoSet.setStartDelay(300);
+        
+        logoSet.addListener(new android.animation.AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(android.animation.Animator animation) {
+                animateLoginForm();
+            }
+        });
+        
+        logoSet.start();
+    }
+    
+    private void animateLoginForm() {
+        // Login form animation - fade in with slide up
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(loginFormContainer, "alpha", 0f, 1f);
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(loginFormContainer, "translationY", 50f, 0f);
+        
+        AnimatorSet formSet = new AnimatorSet();
+        formSet.playTogether(alpha, translationY);
+        formSet.setDuration(800);
+        formSet.setInterpolator(new AccelerateDecelerateInterpolator());
+        formSet.setStartDelay(200);
+        
+        formSet.addListener(new android.animation.AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(android.animation.Animator animation) {
+                startContinuousGlow();
+            }
+        });
+        
+        formSet.start();
+    }
+    
+    private void startContinuousGlow() {
+        // Create a subtle pulsing glow effect
+        ObjectAnimator glowScaleX = ObjectAnimator.ofFloat(logoContainer, "scaleX", 1.0f, 1.05f, 1.0f);
+        ObjectAnimator glowScaleY = ObjectAnimator.ofFloat(logoContainer, "scaleY", 1.0f, 1.05f, 1.0f);
+        ObjectAnimator glowAlpha = ObjectAnimator.ofFloat(logoContainer, "alpha", 1.0f, 0.8f, 1.0f);
+        
+        AnimatorSet glowSet = new AnimatorSet();
+        glowSet.playTogether(glowScaleX, glowScaleY, glowAlpha);
+        glowSet.setDuration(2000);
+        glowSet.setInterpolator(new LinearInterpolator());
+        glowSet.setStartDelay(1000);
+        
+        glowSet.addListener(new android.animation.AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(android.animation.Animator animation) {
+                // Restart the glow effect for continuous animation
+                startContinuousGlow();
+            }
+        });
+        
+        glowSet.start();
+    }
+    
+    private void togglePasswordVisibility() {
+        if (isPasswordVisible) {
+            // Hide password
+            etPassword.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
+            ivPasswordToggle.setImageResource(R.drawable.ic_visibility_off);
+            isPasswordVisible = false;
+        } else {
+            // Show password
+            etPassword.setInputType(android.text.InputType.TYPE_CLASS_TEXT | android.text.InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+            ivPasswordToggle.setImageResource(R.drawable.ic_visibility);
+            isPasswordVisible = true;
+        }
+        
+        // Move cursor to end
+        etPassword.setSelection(etPassword.getText().length());
     }
 }

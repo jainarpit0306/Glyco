@@ -1,7 +1,12 @@
-com/glyco/app/LoginActivity.java
- com.glyco.app.LoginActivity
 com/glyco/app/BuildConfig.java
  com.glyco.app.BuildConfig
+com/glyco/app/LoginActivity.java
+ com.glyco.app.LoginActivity
+ com.glyco.app.LoginActivity$1
+ com.glyco.app.LoginActivity$2
+ com.glyco.app.LoginActivity$3
+ com.glyco.app.LoginActivity$4
+ com.glyco.app.LoginActivity$5
 com/glyco/app/MainActivity.java
  com.glyco.app.MainActivity
  com.glyco.app.MainActivity$1

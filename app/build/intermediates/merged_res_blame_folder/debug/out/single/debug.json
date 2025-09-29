@@ -76,6 +76,10 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_arrow_right.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visibility.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_visibility.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -124,6 +128,10 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\news_room_image.xml"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_text_input_background.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\custom_text_input_background.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\anim_logo_bounce.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\anim\\logo_bounce.xml"
     },
@@ -164,8 +172,16 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\gf.png"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_form_background.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\login_form_background.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_glucose.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_glucose.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_border_input.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\bottom_border_input.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\xml_data_extraction_rules.xml.flat",
@@ -234,5 +250,9 @@
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visibility_off.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_visibility_off.xml"
     }
 ]

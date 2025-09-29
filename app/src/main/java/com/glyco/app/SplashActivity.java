@@ -50,10 +50,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         
-        // Hide action bar for full screen experience
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
-        }
         
         initializeViews();
         startAnimationSequence();
