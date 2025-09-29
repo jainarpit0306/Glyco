@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    
+    <!-- Soft Mint gradient background -->
+    <path
+        android:fillColor="#F0FDF4"
+        android:pathData="M0,0h1080v1920h-1080z" />
+    
+    <!-- Decorative circles -->
+    <path
+        android:fillColor="#D1FAE5"
+        android:pathData="M200,300C300,300 400,400 400,500C400,600 300,700 200,700C100,700 0,600 0,500C0,400 100,300 200,300Z" />
+    
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M880,200C980,200 1080,300 1080,400C1080,500 980,600 880,600C780,600 680,500 680,400C680,300 780,200 880,200Z" />
+    
+    <path
+        android:fillColor="#6EE7B7"
+        android:pathData="M100,1200C200,1200 300,1300 300,1400C300,1500 200,1600 100,1600C0,1600 -100,1500 -100,1400C-100,1300 0,1200 100,1200Z" />
+    
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M980,1400C1080,1400 1180,1500 1180,1600C1180,1700 1080,1800 980,1800C880,1800 780,1700 780,1600C780,1500 880,1400 980,1400Z" />
+    
+    <!-- Subtle pattern overlay -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M540,200C640,200 740,300 740,400C740,500 640,600 540,600C440,600 340,500 340,400C340,300 440,200 540,200Z" />
+    
+    <path
+        android:fillColor="#60FFFFFF"
+        android:pathData="M540,1200C640,1200 740,1300 740,1400C740,1500 640,1600 540,1600C440,1600 340,1500 340,1400C340,1300 440,1200 540,1200Z" />
+    
+</vector>

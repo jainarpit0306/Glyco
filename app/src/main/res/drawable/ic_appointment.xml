@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Calendar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8C6.9,8 6,8.9 6,10V38C6,39.1 6.9,40 8,40H40C41.1,40 42,39.1 42,38V10C42,8.9 41.1,8 40,8H8ZM10,12H38V36H10V12Z" />
+    
+    <!-- Calendar header -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M8,4C6.9,4 6,4.9 6,6V10C6,11.1 6.9,12 8,12H40C41.1,12 42,11.1 42,10V6C42,4.9 41.1,4 40,4H8Z" />
+    
+    <!-- Calendar rings -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M8,2C6.9,2 6,2.9 6,4V6C6,7.1 6.9,8 8,8H40C41.1,8 42,7.1 42,6V4C42,2.9 41.1,2 40,2H8Z" />
+    
+    <!-- Calendar dates -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,16H16V20H12V16ZM20,16H24V20H20V16ZM28,16H32V20H28V16ZM36,16H40V20H36V16Z" />
+    
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,24H16V28H12V24ZM20,24H24V28H20V24ZM28,24H32V28H28V24ZM36,24H40V28H36V24Z" />
+    
+    <!-- Appointment highlight -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M20,32H28V36H20V32Z" />
+    
+    <!-- Clock for appointment time -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M32,32C34,32 36,34 36,36V40C36,42 34,44 32,44C30,44 28,42 28,40V36C28,34 30,32 32,32Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M32,34C32.5,34 33,34.5 33,35V37C33,37.5 32.5,38 32,38C31.5,38 31,37.5 31,37V35C31,34.5 31.5,34 32,34Z" />
+    
+    <!-- Doctor icon -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M16,8C18,8 20,10 20,12V14C20,16 18,18 16,18C14,18 12,16 12,14V12C12,10 14,8 16,8Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M16,18C18,18 20,20 20,22V24C20,26 18,28 16,28C14,28 12,26 12,24V22C12,20 14,18 16,18Z" />
+    
+</vector>

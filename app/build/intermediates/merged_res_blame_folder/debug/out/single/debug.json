@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_news.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_news.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_df.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-hdpi\\df.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_th.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xhdpi\\th.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_glucose.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_glucose.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tracking.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_tracking.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lab.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_lab.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_reports.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_reports.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_eg.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-hdpi\\eg.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_gf.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\gf.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_sd.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-mdpi\\sd.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_fh.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxhdpi\\fh.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news_room_image.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\news_room_image.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_rules.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_appointment.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_appointment.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_df.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xhdpi\\df.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_knowledge.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_knowledge.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_goals.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_goals.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_medication.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_medication.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_scale_animation.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\logo_scale_animation.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_fade_in_animation.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\text_fade_in_animation.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_emergency.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_emergency.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_glyco_logo.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\glyco_logo.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_background.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_badge.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\notification_badge.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_gradient_animation.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\background_gradient_animation.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_hgf.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-mdpi\\hgf.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_pulse_animation.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\progress_pulse_animation.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_fg.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxhdpi\\fg.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_diet.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_diet.xml"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_dgf.png.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\mipmap-xxxhdpi\\dgf.png"
+    },
+    {
+        "merged": "D:\\glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_consultation.xml.flat",
+        "source": "D:\\glyco\\app\\src\\main\\res\\drawable\\ic_consultation.xml"
+    }
+]

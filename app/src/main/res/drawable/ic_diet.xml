@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Modern diet plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8C8,6 10,4 12,4H36C38,4 40,6 40,8V40C40,42 38,44 36,44H12C10,44 8,42 8,40V8Z" />
+    
+    <!-- Diet header -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M10,6H38V10H10V6Z" />
+    
+    <!-- Healthy plate -->
+    <path
+        android:fillColor="#F8F9FA"
+        android:pathData="M16,14C14,14 12,16 12,18V30C12,32 14,34 16,34H32C34,34 36,32 36,30V18C36,16 34,14 32,14H16Z" />
+    
+    <!-- Plate rim -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M14,16C12,16 10,18 10,20V28C10,30 12,32 14,32H34C36,32 38,30 38,28V20C38,18 36,16 34,16H14Z" />
+    
+    <!-- Healthy vegetables -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M16,18C15,18 14,19 14,20V22C14,23 15,24 16,24H18C19,24 20,23 20,22V20C20,19 19,18 18,18H16Z" />
+    
+    <!-- Protein -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M22,18C21,18 20,19 20,20V22C20,23 21,24 22,24H24C25,24 26,23 26,22V20C26,19 25,18 24,18H22Z" />
+    
+    <!-- Grains -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M28,18C27,18 26,19 26,20V22C26,23 27,24 28,24H30C31,24 32,23 32,22V20C32,19 31,18 30,18H28Z" />
+    
+    <!-- More vegetables -->
+    <path
+        android:fillColor="#84CC16"
+        android:pathData="M16,26C15,26 14,27 14,28V30C14,31 15,32 16,32H18C19,32 20,31 20,30V28C20,27 19,26 18,26H16Z" />
+    
+    <!-- Fruits -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M22,26C21,26 20,27 20,28V30C20,31 21,32 22,32H24C25,32 26,31 26,30V28C26,27 25,26 24,26H22Z" />
+    
+    <!-- Healthy symbol -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M28,26C30,26 32,28 32,30C32,32 30,34 28,34C26,34 24,32 24,30C24,28 26,26 28,26Z" />
+    
+    <!-- Check mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,30L28,32L30,30L32,32L30,34L28,32L26,30Z" />
+    
+</vector>

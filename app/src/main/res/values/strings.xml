@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Glyco</string>
+    <string name="app_tagline">Your Health Companion</string>
+    <string name="welcome_message">Welcome to Glyco - Track your health journey with our beautiful, intuitive interface designed with the calming Soft Mint theme.</string>
+    <string name="get_started">Get Started</string>
+    <string name="learn_more">Learn More</string>
+    <string name="analytics">Analytics</string>
+    <string name="goals">Goals</string>
+    <string name="medication">Medication</string>
+    <string name="progress">Progress</string>
+</resources>

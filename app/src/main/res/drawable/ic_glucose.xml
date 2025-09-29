@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Hand holding glucose meter -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M8,16C8,12 12,10 16,10C20,10 24,12 24,16V20C24,24 20,26 16,26C12,26 8,24 8,20V16Z" />
+    
+    <!-- Glucose meter device -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,8C18.9,8 18,8.9 18,10V22C18,23.1 18.9,24 20,24H32C33.1,24 34,23.1 34,22V10C34,8.9 33.1,8 32,8H20ZM22,12H30V20H22V12Z" />
+    
+    <!-- Meter screen -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M24,14H28V18H24V14Z" />
+    
+    <!-- Glucose reading display -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,16H28V18H24V16Z" />
+    
+    <!-- Test strip -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M16,20H18V24H16V20Z" />
+    
+    <!-- Blood drop -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M14,18C14,16 16,14 18,14C20,14 22,16 22,18V20C22,22 20,24 18,24C16,24 14,22 14,20V18Z" />
+    
+    <!-- Abstract health figure -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M36,20C36,18 38,16 40,16C42,16 44,18 44,20V24C44,26 42,28 40,28C38,28 36,26 36,24V20Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M40,16C40,14 42,12 44,12C46,12 48,14 48,16V20C48,22 46,24 44,24C42,24 40,22 40,20V16Z" />
+    
+    <!-- Health monitoring lines -->
+    <path
+        android:fillColor="#10B981"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2"
+        android:pathData="M32,28L36,24L40,28L44,24" />
+    
+    <!-- Heart rate indicator -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M32,32C32,30 34,28 36,28C38,28 40,30 40,32V36C40,38 38,40 36,40C34,40 32,38 32,36V32Z" />
+    
+</vector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Modern knowledge base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8C8,6 10,4 12,4H36C38,4 40,6 40,8V40C40,42 38,44 36,44H12C10,44 8,42 8,40V8Z" />
+    
+    <!-- Knowledge header -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M10,6H38V10H10V6Z" />
+    
+    <!-- Brain/lightbulb icon -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M20,14C22,14 24,16 24,18C24,20 22,22 20,22C18,22 16,20 16,18C16,16 18,14 20,14Z" />
+    
+    <!-- Knowledge rays -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M20,12H22V14H20V12ZM20,22H22V24H20V22ZM12,18H14V20H12V18ZM28,18H30V20H28V18Z" />
+    
+    <!-- Information lines -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M14,26H34V27H14V26ZM14,30H32V31H14V30ZM14,34H30V35H14V34Z" />
+    
+    <!-- Knowledge symbol -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M24,26C26,26 28,28 28,30C28,32 26,34 24,34C22,34 20,32 20,30C20,28 22,26 24,26Z" />
+    
+    <!-- Question mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,28H26V30H22V28ZM22,32H26V34H22V32Z" />
+    
+</vector>

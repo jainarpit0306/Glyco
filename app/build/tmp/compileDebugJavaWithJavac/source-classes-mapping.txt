@@ -1,0 +1,17 @@
+com/glyco/app/LoginActivity.java
+ com.glyco.app.LoginActivity
+com/glyco/app/BuildConfig.java
+ com.glyco.app.BuildConfig
+com/glyco/app/MainActivity.java
+ com.glyco.app.MainActivity
+ com.glyco.app.MainActivity$1
+ com.glyco.app.MainActivity$2
+ com.glyco.app.MainActivity$3
+ com.glyco.app.MainActivity$4
+ com.glyco.app.MainActivity$5
+ com.glyco.app.MainActivity$6
+ com.glyco.app.MainActivity$7
+ com.glyco.app.MainActivity$8
+com/glyco/app/SplashActivity.java
+ com.glyco.app.SplashActivity
+ com.glyco.app.SplashActivity$1

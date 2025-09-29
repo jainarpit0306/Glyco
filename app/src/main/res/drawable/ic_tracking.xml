@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Fitness tracker device -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M8,16C6.9,16 6,16.9 6,18V30C6,31.1 6.9,32 8,32H40C41.1,32 42,31.1 42,30V18C42,16.9 41.1,16 40,16H8ZM10,20H38V28H10V20Z" />
+    
+    <!-- Device screen -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,22H36V26H12V22Z" />
+    
+    <!-- Heart rate display -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M16,24H18V26H16V24ZM20,24H22V26H20V24ZM24,24H26V26H24V24ZM28,24H30V26H28V24Z" />
+    
+    <!-- Steps counter -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M14,28H16V30H14V28ZM18,28H20V30H18V28ZM22,28H24V30H22V28ZM26,28H28V30H26V28ZM30,28H32V30H30V28Z" />
+    
+    <!-- Health metrics chart -->
+    <path
+        android:fillColor="#3B82F6"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="2"
+        android:pathData="M8,8L12,6L16,8L20,4L24,6L28,2L32,4L36,0L40,2" />
+    
+    <!-- Data points -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M12,4C13,4 14,5 14,6C14,7 13,8 12,8C11,8 10,7 10,6C10,5 11,4 12,4Z" />
+    
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M20,2C21,2 22,3 22,4C22,5 21,6 20,6C19,6 18,5 18,4C18,3 19,2 20,2Z" />
+    
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M28,0C29,0 30,1 30,2C30,3 29,4 28,4C27,4 26,3 26,2C26,1 27,0 28,0Z" />
+    
+    <!-- Activity rings -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"
+        android:pathData="M24,12C30,12 36,18 36,24C36,30 30,36 24,36C18,36 12,30 12,24C12,18 18,12 24,12Z" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3"
+        android:pathData="M24,16C28,16 32,20 32,24C32,28 28,32 24,32C20,32 16,28 16,24C16,20 20,16 24,16Z" />
+    
+</vector>

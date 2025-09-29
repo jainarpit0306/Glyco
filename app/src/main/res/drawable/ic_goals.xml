@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Target circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="4"
+        android:pathData="M24,8C32,8 40,16 40,24C40,32 32,40 24,40C16,40 8,32 8,24C8,16 16,8 24,8Z" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"
+        android:pathData="M24,12C28,12 32,16 32,20C32,24 28,28 24,28C20,28 16,24 16,20C16,16 20,12 24,12Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,16C26,16 28,18 28,20C28,22 26,24 24,24C22,24 20,22 20,20C20,18 22,16 24,16Z" />
+    
+    <!-- Progress bar -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M8,44H40V48H8V44Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M8,44H32V48H8V44Z" />
+    
+    <!-- Goal checkmarks -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M12,4C13,4 14,5 14,6V8C14,9 13,10 12,10C11,10 10,9 10,8V6C10,5 11,4 12,4Z" />
+    
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M36,4C37,4 38,5 38,6V8C38,9 37,10 36,10C35,10 34,9 34,8V6C34,5 35,4 36,4Z" />
+    
+    <!-- Achievement stars -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,2C25,2 26,3 26,4V6C26,7 25,8 24,8C23,8 22,7 22,6V4C22,3 23,2 24,2Z" />
+    
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M20,6C21,6 22,7 22,8V10C22,11 21,12 20,12C19,12 18,11 18,10V8C18,7 19,6 20,6Z" />
+    
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M28,6C29,6 30,7 30,8V10C30,11 29,12 28,12C27,12 26,11 26,10V8C26,7 27,6 28,6Z" />
+    
+    <!-- Health metrics -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M8,20H12V24H8V20ZM16,20H20V24H16V20ZM28,20H32V24H28V20ZM36,20H40V24H36V20Z" />
+    
+    <!-- Goal text -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M18,28H30V30H18V28ZM20,32H28V34H20V32Z" />
+    
+</vector>

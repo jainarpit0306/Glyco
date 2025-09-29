@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Pill bottle -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M12,8C10.9,8 10,8.9 10,10V38C10,39.1 10.9,40 12,40H36C37.1,40 38,39.1 38,38V10C38,8.9 37.1,8 36,8H12ZM14,12H34V36H14V12Z" />
+    
+    <!-- Bottle cap -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M12,6C10.9,6 10,6.9 10,8V10C10,11.1 10.9,12 12,12H36C37.1,12 38,11.1 38,10V8C38,6.9 37.1,6 36,6H12Z" />
+    
+    <!-- Pills inside bottle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,16C16,14 18,12 20,12C22,12 24,14 24,16V20C24,22 22,24 20,24C18,24 16,22 16,20V16Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,16C28,14 30,12 32,12C34,12 36,14 36,16V20C36,22 34,24 32,24C30,24 28,22 28,20V16Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,28C16,26 18,24 20,24C22,24 24,26 24,28V32C24,34 22,36 20,36C18,36 16,34 16,32V28Z" />
+    
+    <!-- Medication schedule -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M20,18H28V20H20V18ZM20,22H26V24H20V22Z" />
+    
+    <!-- Clock for reminder -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,2C26,2 28,4 28,6V8C28,10 26,12 24,12C22,12 20,10 20,8V6C20,4 22,2 24,2Z" />
+    
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,4C24.5,4 25,4.5 25,5V7C25,7.5 24.5,8 24,8C23.5,8 23,7.5 23,7V5C23,4.5 23.5,4 24,4Z" />
+    
+</vector>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Modern newspaper/magazine design -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8C8,6 10,4 12,4H36C38,4 40,6 40,8V40C40,42 38,44 36,44H12C10,44 8,42 8,40V8Z" />
+    
+    <!-- Newspaper header -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M10,6H38V10H10V6Z" />
+    
+    <!-- News headline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,8H36V9H12V8Z" />
+    
+    <!-- Article lines -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,12H36V13H12V12ZM12,15H30V16H12V15ZM12,18H28V19H12V18Z" />
+    
+    <!-- Image placeholder -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M12,22H28V30H12V22Z" />
+    
+    <!-- More article text -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,32H36V33H12V32ZM12,35H32V36H12V35ZM12,38H30V39H12V38Z" />
+    
+    <!-- News icon badge -->
+    <path
+        android:fillColor="#B2D8D2"
+        android:pathData="M32,14C34,14 36,16 36,18C36,20 34,22 32,22C30,22 28,20 28,18C28,16 30,14 32,14Z" />
+    
+    <!-- News symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,16H34V18H30V16ZM30,19H34V21H30V19Z" />
+    
+</vector>

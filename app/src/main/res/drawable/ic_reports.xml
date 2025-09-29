@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Stack of documents -->
+    <!-- Bottom document -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M8,8C6.9,8 6,8.9 6,10V36C6,37.1 6.9,38 8,38H32C33.1,38 34,37.1 34,36V10C34,8.9 33.1,8 32,8H8ZM10,12H30V34H10V12Z" />
+    
+    <!-- Middle document -->
+    <path
+        android:fillColor="#F3F4F6"
+        android:pathData="M10,6C8.9,6 8,6.9 8,8V34C8,35.1 8.9,36 10,36H34C35.1,36 36,35.1 36,34V8C36,6.9 35.1,6 34,6H10ZM12,10H32V32H12V10Z" />
+    
+    <!-- Top document -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,4C10.9,4 10,4.9 10,6V32C10,33.1 10.9,34 12,34H36C37.1,34 38,33.1 38,32V6C38,4.9 37.1,4 36,4H12ZM14,8H34V30H14V8Z" />
+    
+    <!-- Charts and graphs on top document -->
+    <!-- Bar chart -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M16,12H18V20H16V12ZM20,12H22V16H20V12ZM24,12H26V18H24V12ZM28,12H30V14H28V12Z" />
+    
+    <!-- Line graph -->
+    <path
+        android:fillColor="#3B82F6"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="2"
+        android:pathData="M16,22L20,20L24,18L28,16L32,14" />
+    
+    <!-- Data points -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M16,20C17,20 18,21 18,22C18,23 17,24 16,24C15,24 14,23 14,22C14,21 15,20 16,20Z" />
+    
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M20,18C21,18 22,19 22,20C22,21 21,22 20,22C19,22 18,21 18,20C18,19 19,18 20,18Z" />
+    
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M24,16C25,16 26,17 26,18C26,19 25,20 24,20C23,20 22,19 22,18C22,17 23,16 24,16Z" />
+    
+    <!-- Report text -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M16,26H32V28H16V26ZM16,30H28V32H16V30Z" />
+    
+    <!-- "REPORT" text on top -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M18,10H20V12H18V10ZM22,10H24V12H22V10ZM26,10H28V12H26V10ZM30,10H32V12H30V10Z" />
+    
+</vector>
