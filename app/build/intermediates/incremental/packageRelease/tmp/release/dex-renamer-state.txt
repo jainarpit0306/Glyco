@@ -1,0 +1,4 @@
+#Tue Sep 30 00:09:15 IST 2025
+base.0=D\:\\Work\\Glyco\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    
+    <!-- Main gradient background -->
+    <path
+        android:fillColor="@color/logo_background"
+        android:pathData="M0,0h1080v1920h-1080z" />
+    
+    <!-- Animated floating particles -->
+    <path
+        android:fillColor="@color/logo_light"
+        android:pathData="M150,200C160,200 170,210 170,220C170,230 160,240 150,240C140,240 130,230 130,220C130,210 140,200 150,200Z" />
+    
+    <path
+        android:fillColor="@color/logo_primary"
+        android:pathData="M900,150C910,150 920,160 920,170C920,180 910,190 900,190C890,190 880,180 880,170C880,160 890,150 900,150Z" />
+    
+    <path
+        android:fillColor="@color/logo_light"
+        android:pathData="M200,400C210,400 220,410 220,420C220,430 210,440 200,440C190,440 180,430 180,420C180,410 190,400 200,400Z" />
+    
+    <path
+        android:fillColor="@color/logo_primary"
+        android:pathData="M850,350C860,350 870,360 870,370C870,380 860,390 850,390C840,390 830,380 830,370C830,360 840,350 850,350Z" />
+    
+    <path
+        android:fillColor="@color/logo_light"
+        android:pathData="M100,600C110,600 120,610 120,620C120,630 110,640 100,640C90,640 80,630 80,620C80,610 90,600 100,600Z" />
+    
+    <path
+        android:fillColor="@color/logo_primary"
+        android:pathData="M950,500C960,500 970,510 970,520C970,530 960,540 950,540C940,540 930,530 930,520C930,510 940,500 950,500Z" />
+    
+    <!-- Larger decorative elements -->
+    <path
+        android:fillColor="@color/logo_light"
+        android:pathData="M50,800C100,800 150,850 150,900C150,950 100,1000 50,1000C0,1000 -50,950 -50,900C-50,850 0,800 50,800Z" />
+    
+    <path
+        android:fillColor="@color/logo_primary"
+        android:pathData="M1030,700C1080,700 1130,750 1130,800C1130,850 1080,900 1030,900C980,900 930,850 930,800C930,750 980,700 1030,700Z" />
+    
+    <path
+        android:fillColor="@color/logo_light"
+        android:pathData="M80,1200C130,1200 180,1250 180,1300C180,1350 130,1400 80,1400C30,1400 -20,1350 -20,1300C-20,1250 30,1200 80,1200Z" />
+    
+    <path
+        android:fillColor="@color/logo_primary"
+        android:pathData="M1000,1100C1050,1100 1100,1150 1100,1200C1100,1250 1050,1300 1000,1300C950,1300 900,1250 900,1200C900,1150 950,1100 1000,1100Z" />
+    
+    <!-- Subtle overlay pattern -->
+    <path
+        android:fillColor="#20FFFFFF"
+        android:pathData="M540,100C640,100 740,200 740,300C740,400 640,500 540,500C440,500 340,400 340,300C340,200 440,100 540,100Z" />
+    
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M540,1400C640,1400 740,1500 740,1600C740,1700 640,1800 540,1800C440,1800 340,1700 340,1600C340,1500 440,1400 540,1400Z" />
+    
+</vector>

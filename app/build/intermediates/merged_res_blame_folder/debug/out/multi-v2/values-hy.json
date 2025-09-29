@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\glyco\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "D:\\Work\\Glyco\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Users\\arpit\\.gradle\\caches\\transforms-2\\files-2.1\\10046aad9e73cbf22653afacdcab8838\\material-1.4.0\\res\\values-hy\\values-hy.xml",

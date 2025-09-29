@@ -3,15 +3,84 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/logo_light">
+    android:background="@drawable/splash_gradient_background">
 
-    <!-- Background gradient -->
+    <!-- Animated background particles -->
     <View
-        android:id="@+id/background_gradient"
+        android:id="@+id/background_particles"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/splash_background"
+        android:background="@drawable/splash_animated_background"
         android:alpha="0.0" />
+
+    <!-- Floating particles container -->
+    <FrameLayout
+        android:id="@+id/particles_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0">
+        
+        <!-- Floating particle 1 -->
+        <View
+            android:id="@+id/particle_1"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+        <!-- Floating particle 2 -->
+        <View
+            android:id="@+id/particle_2"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="800dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+        <!-- Floating particle 3 -->
+        <View
+            android:id="@+id/particle_3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+        <!-- Floating particle 4 -->
+        <View
+            android:id="@+id/particle_4"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginStart="700dp"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+        <!-- Floating particle 5 -->
+        <View
+            android:id="@+id/particle_5"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="1000dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+        <!-- Floating particle 6 -->
+        <View
+            android:id="@+id/particle_6"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginStart="850dp"
+            android:layout_marginTop="1200dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0" />
+        
+    </FrameLayout>
 
     <!-- Main content container -->
     <LinearLayout
@@ -22,6 +91,17 @@
         android:gravity="center"
         android:padding="32dp">
 
+        <!-- Logo glow effect -->
+        <View
+            android:id="@+id/logo_glow"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/logo_glow_effect"
+            android:alpha="0.0"
+            android:scaleX="0.0"
+            android:scaleY="0.0" />
+
         <!-- Logo container -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/logo_container"
@@ -30,7 +110,9 @@
             android:layout_marginBottom="48dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="100dp"
-            app:cardElevation="12dp"
+            app:cardElevation="16dp"
+            app:strokeColor="@color/logo_accent"
+            app:strokeWidth="3dp"
             android:alpha="0.0"
             android:scaleX="0.0"
             android:scaleY="0.0">
@@ -41,50 +123,60 @@
                 android:layout_height="match_parent"
                 android:src="@mipmap/ic_launcher"
                 android:scaleType="centerCrop"
-                android:padding="4dp" />
+                android:padding="8dp" />
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- App name -->
+        <!-- App name with enhanced styling -->
         <TextView
             android:id="@+id/app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="GLYCO"
             android:textColor="@color/logo_primary"
-            android:textSize="36sp"
+            android:textSize="42sp"
             android:textStyle="bold"
-            android:letterSpacing="0.1"
-            android:layout_marginBottom="8dp"
+            android:letterSpacing="0.15"
+            android:layout_marginBottom="48dp"
             android:alpha="0.0"
-            android:translationY="50dp" />
+            android:translationY="50dp"
+            android:shadowColor="@color/logo_light"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="8" />
 
-        <!-- Tagline -->
+        <!-- Tagline with enhanced styling -->
         <TextView
             android:id="@+id/tagline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your Health Companion"
-            android:textColor="@color/gray_600"
-            android:textSize="16sp"
-            android:layout_marginBottom="32dp"
+            android:textColor="@color/logo_text_secondary"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="40dp"
             android:alpha="0.0"
-            android:translationY="50dp" />
+            android:translationY="10dp"
+            android:letterSpacing="0.05" />
 
-        <!-- Loading indicator -->
+        <!-- Enhanced loading indicator -->
         <com.google.android.material.progressindicator.CircularProgressIndicator
             android:id="@+id/progress_indicator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:indeterminate="true"
             app:indicatorColor="@color/logo_primary"
-            app:trackColor="@color/logo_accent"
+            app:trackColor="@color/logo_secondary"
+            app:trackThickness="4dp"
+            app:indicatorSize="48dp"
             android:layout_marginTop="32dp"
-            android:alpha="0.0" />
+            android:alpha="0.0"
+            android:scaleX="0.0"
+            android:scaleY="0.0" />
 
     </LinearLayout>
 
-    <!-- Version info at bottom -->
+    <!-- Enhanced version info at bottom -->
     <TextView
         android:id="@+id/version_text"
         android:layout_width="wrap_content"
@@ -93,8 +185,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:text="Version 1.0"
-        android:textColor="@color/gray_400"
-        android:textSize="12sp"
-        android:alpha="0.0" />
+        android:textColor="@color/logo_text_secondary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:alpha="0.0"
+        android:translationY="30dp" />
 
 </RelativeLayout>

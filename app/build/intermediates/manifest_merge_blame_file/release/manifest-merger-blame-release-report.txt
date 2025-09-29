@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.glyco.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Work\Glyco\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Work\Glyco\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:6:5-41:19
+12        android:allowBackup="true"
+12-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\arpit\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:8:9-65
+15        android:fullBackupContent="@xml/backup_rules"
+15-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:9:9-54
+16        android:icon="@mipmap/ic_launcher"
+16-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:10:9-43
+17        android:label="@string/app_name"
+17-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:11:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:12:9-54
+19        android:supportsRtl="true"
+19-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:13:9-35
+20        android:theme="@style/Theme.Glyco" >
+20-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:14:9-43
+21
+22        <!-- Splash Screen Activity -->
+23        <activity
+23-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:18:9-26:20
+24            android:name="com.glyco.app.SplashActivity"
+24-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:19:13-43
+25            android:exported="true"
+25-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:20:13-36
+26            android:theme="@style/Theme.Glyco.Splash" >
+26-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:21:13-54
+27            <intent-filter>
+27-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:22:13-25:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:23:17-69
+28-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:23:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:24:17-77
+30-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:24:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <!-- Login Activity -->
+35        <activity
+35-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:29:9-33:52
+36            android:name="com.glyco.app.LoginActivity"
+36-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:30:13-42
+37            android:exported="false"
+37-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:31:13-37
+38            android:screenOrientation="portrait"
+38-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:33:13-49
+39            android:theme="@style/Theme.Glyco" />
+39-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:32:13-47
+40
+41        <!-- Main Activity -->
+42        <activity
+42-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:36:9-39:50
+43            android:name="com.glyco.app.MainActivity"
+43-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:37:13-41
+44            android:exported="false"
+44-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:38:13-37
+45            android:theme="@style/Theme.Glyco" />
+45-->D:\Work\Glyco\app\src\main\AndroidManifest.xml:39:13-47
+46    </application>
+47
+48</manifest>

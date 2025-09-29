@@ -12,12 +12,17 @@
     <color name="teal_800">#115E59</color>
     <color name="teal_900">#134E4A</color>
     
-    <!-- Logo Color Palette -->
-    <color name="logo_primary">#B2D8D2</color>
-    <color name="logo_light">#E8F5F3</color>
-    <color name="logo_dark">#7FB3A8</color>
-    <color name="logo_accent">#9CC5BD</color>
-    <color name="logo_secondary">#D1E7DD</color>
+    <!-- Logo-Matched Color Palette -->
+    <color name="logo_primary">#91B3A5</color>
+    <color name="logo_light">#B7CCC3</color>
+    <color name="logo_dark">#91B3A5</color>
+    <color name="logo_accent">#B7CCC3</color>
+    <color name="logo_secondary">#B7CCC3</color>
+    <color name="logo_gradient_start">#B7CCC3</color>
+    <color name="logo_gradient_end">#91B3A5</color>
+    <color name="logo_glow">#B7CCC3</color>
+    <color name="logo_text_secondary">#91B3A5</color>
+    <color name="logo_background">#F8FBFA</color>
     
     <!-- Neutral Colors -->
     <color name="white">#FFFFFFFF</color>

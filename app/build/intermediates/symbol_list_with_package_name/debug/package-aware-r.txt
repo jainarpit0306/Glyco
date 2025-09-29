@@ -27,7 +27,11 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim float_down
+anim float_up
 anim fragment_fast_out_extra_slow_in
+anim glow_pulse
+anim logo_bounce
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -1157,10 +1161,15 @@ color gray_900
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color logo_accent
+color logo_background
 color logo_dark
+color logo_glow
+color logo_gradient_end
+color logo_gradient_start
 color logo_light
 color logo_primary
 color logo_secondary
+color logo_text_secondary
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1830,6 +1839,7 @@ drawable ic_news
 drawable ic_profile
 drawable ic_reports
 drawable ic_tracking
+drawable logo_glow_effect
 drawable logo_scale_animation
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1867,7 +1877,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable progress_pulse_animation
+drawable splash_animated_background
 drawable splash_background
+drawable splash_gradient_background
 drawable test_custom_background
 drawable text_fade_in_animation
 drawable tooltip_frame_dark
@@ -1962,7 +1974,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id background_gradient
+id background_particles
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2113,6 +2125,7 @@ id linear
 id listMode
 id list_item
 id logo_container
+id logo_glow
 id logo_image
 id main_container
 id masked
@@ -2206,6 +2219,13 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id particle_1
+id particle_2
+id particle_3
+id particle_4
+id particle_5
+id particle_6
+id particles_container
 id password_toggle
 id path
 id pathRelative
