@@ -5,42 +5,51 @@
     android:viewportWidth="48"
     android:viewportHeight="48">
     
-    <!-- Modern newspaper/magazine design -->
+    <!-- Modern knowledge/education promotional design -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M8,8C8,6 10,4 12,4H36C38,4 40,6 40,8V40C40,42 38,44 36,44H12C10,44 8,42 8,40V8Z" />
     
-    <!-- Newspaper header -->
+    <!-- Knowledge header -->
     <path
-        android:fillColor="#B2D8D2"
+        android:fillColor="#FFE0B2"
         android:pathData="M10,6H38V10H10V6Z" />
     
-    <!-- News headline -->
+    <!-- Knowledge title -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M12,8H36V9H12V8Z" />
     
-    <!-- Article lines -->
+    <!-- Book/learning icon -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M14,12H18V20H14V12ZM20,12H24V20H20V12ZM26,12H30V20H26V12Z" />
+    
+    <!-- Knowledge content lines -->
     <path
         android:fillColor="#6B7280"
-        android:pathData="M12,12H36V13H12V12ZM12,15H30V16H12V15ZM12,18H28V19H12V18Z" />
+        android:pathData="M12,22H36V23H12V22ZM12,25H30V26H12V25ZM12,28H28V29H12V28Z" />
     
-    <!-- Image placeholder -->
+    <!-- Learning progress bar -->
     <path
         android:fillColor="#E5E7EB"
-        android:pathData="M12,22H28V30H12V22Z" />
+        android:pathData="M12,32H36V34H12V32Z" />
     
-    <!-- More article text -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M12,32H24V34H12V32Z" />
+    
+    <!-- More knowledge content -->
     <path
         android:fillColor="#6B7280"
-        android:pathData="M12,32H36V33H12V32ZM12,35H32V36H12V35ZM12,38H30V39H12V38Z" />
+        android:pathData="M12,36H36V37H12V36ZM12,39H32V40H12V39Z" />
     
-    <!-- News icon badge -->
+    <!-- Knowledge badge -->
     <path
-        android:fillColor="#B2D8D2"
+        android:fillColor="#FFE0B2"
         android:pathData="M32,14C34,14 36,16 36,18C36,20 34,22 32,22C30,22 28,20 28,18C28,16 30,14 32,14Z" />
     
-    <!-- News symbol -->
+    <!-- Knowledge symbol -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M30,16H34V18H30V16ZM30,19H34V21H30V19Z" />

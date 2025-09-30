@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M24,24m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <!-- Text: APP -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M10,16h3v2h-3v-2zM14,16h3v2h-3v-2zM18,16h3v2h-3v-2z" />
+    
+    <!-- Text: OIN -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M10,20h3v2h-3v-2zM14,20h3v2h-3v-2zM18,20h3v2h-3v-2z" />
+    
+    <!-- Text: TMNT -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M8,24h3v2h-3v-2zM12,24h3v2h-3v-2zM16,24h3v2h-3v-2zM20,24h3v2h-3v-2z" />
+    
+</vector>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Modern diet/nutrition promotional design -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,8C8,6 10,4 12,4H36C38,4 40,6 40,8V40C40,42 38,44 36,44H12C10,44 8,42 8,40V8Z" />
+    
+    <!-- Diet header -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M10,6H38V10H10V6Z" />
+    
+    <!-- Diet title -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,8H36V9H12V8Z" />
+    
+    <!-- Healthy food icons -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M14,12C16,12 18,14 18,16C18,18 16,20 14,20C12,20 10,18 10,16C10,14 12,12 14,12Z" />
+    
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M22,12C24,12 26,14 26,16C26,18 24,20 22,20C20,20 18,18 18,16C18,14 20,12 22,12Z" />
+    
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M30,12C32,12 34,14 34,16C34,18 32,20 30,20C28,20 26,18 26,16C26,14 28,12 30,12Z" />
+    
+    <!-- Nutrition content lines -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,22H36V23H12V22ZM12,25H30V26H12V25ZM12,28H28V29H12V28Z" />
+    
+    <!-- Calorie counter display -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M12,32H36V34H12V32Z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M12,32H20V34H12V32Z" />
+    
+    <!-- Diet tips -->
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M12,36H36V37H12V36ZM12,39H32V40H12V39Z" />
+    
+    <!-- Diet badge -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M32,14C34,14 36,16 36,18C36,20 34,22 32,22C30,22 28,20 28,18C28,16 30,14 32,14Z" />
+    
+    <!-- Diet symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,16H34V18H30V16ZM30,19H34V21H30V19Z" />
+    
+</vector>

@@ -1819,6 +1819,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable diet_promotion
 drawable glyco_logo
 drawable ic_about
 drawable ic_appointment
@@ -1853,6 +1854,7 @@ drawable ic_reports
 drawable ic_tracking
 drawable ic_visibility
 drawable ic_visibility_off
+drawable knowledge_promotion
 drawable language_dropdown_background
 drawable login_form_background
 drawable logo_glow_effect
@@ -1877,6 +1879,8 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable my_diet
+drawable my_knowledge
 drawable navigation_empty_icon
 drawable news_room_image
 drawable notification_action_background
@@ -1900,6 +1904,15 @@ drawable test_custom_background
 drawable text_fade_in_animation
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable word_appointment
+drawable word_consultation
+drawable word_emergency
+drawable word_glucose
+drawable word_goals
+drawable word_lab
+drawable word_medication
+drawable word_reports
+drawable word_tracking
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2228,13 +2241,6 @@ id normal
 id north
 id notification_background
 id notification_badge
-id notification_badge_appointment
-id notification_badge_diet
-id notification_badge_knowledge
-id notification_badge_lab
-id notification_badge_medication
-id notification_badge_news
-id notification_badge_tracking
 id notification_main_column
 id notification_main_column_container
 id off
@@ -2311,7 +2317,6 @@ id sin
 id skipCollapsed
 id skipped
 id slide
-id sloganCard
 id snackbar_action
 id snackbar_text
 id snap

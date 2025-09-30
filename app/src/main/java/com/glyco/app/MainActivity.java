@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+import androidx.core.view.GravityCompat;
 import com.google.android.material.card.MaterialCardView;
 
 public class MainActivity extends BaseActivity {
@@ -23,7 +24,6 @@ public class MainActivity extends BaseActivity {
     private void initializeViews() {
         // Get card references for click listeners
         MaterialCardView profileCard = findViewById(R.id.profileCard);
-        MaterialCardView sloganCard = findViewById(R.id.sloganCard);
         MaterialCardView appointmentCard = findViewById(R.id.appointmentCard);
         MaterialCardView healthServicesCard = findViewById(R.id.healthServicesCard);
         MaterialCardView additionalServicesCard = findViewById(R.id.additionalServicesCard);
@@ -41,14 +41,7 @@ public class MainActivity extends BaseActivity {
             });
         }
 
-        if (sloganCard != null) {
-            sloganCard.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    showToast("GLYCO - Treat to Target And Live Longer 🌿");
-                }
-            });
-        }
+
 
         if (appointmentCard != null) {
             appointmentCard.setOnClickListener(new View.OnClickListener() {
@@ -107,8 +100,12 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void onMenuClicked() {
-        // Custom menu behavior for MainActivity
-        showToast("Main Menu - Dashboard navigation options 📱");
+        // Open the navigation drawer with profile and menu options
+        if (drawerLayout != null) {
+            drawerLayout.openDrawer(GravityCompat.START);
+        } else {
+            showToast("Main Menu - Dashboard navigation options 📱");
+        }
     }
 
     @Override
@@ -124,6 +121,26 @@ public class MainActivity extends BaseActivity {
         showToast("Dashboard Notifications - " + count + " new updates 📊");
         // Clear notifications
         updateNotificationBadge(0);
+    }
+
+    @Override
+    protected void onViewProfileClicked() {
+        showToast("View Profile - Opening patient profile for Mr. VICKY SOLANKI 👤");
+    }
+    
+    @Override
+    protected void onAppointmentHistoryClicked() {
+        showToast("Appointment History - Showing past and upcoming appointments 📅");
+    }
+    
+    @Override
+    protected void onLanguageChangeClicked() {
+        showToast("Language Change - Select your preferred language 🌐");
+    }
+    
+    @Override
+    protected void onAboutUsClicked() {
+        showToast("About Us - Glyco Health App v2.9 - Your diabetes management companion 📱");
     }
 
     protected void showToast(String message) {

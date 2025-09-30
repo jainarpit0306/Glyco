@@ -82,33 +82,7 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- App Slogan Card -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/sloganCard"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="GLYCO - Treat to Target And Live Longer"
-                    android:textColor="@color/gray_800"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </com.google.android.material.card.MaterialCardView>
+        
 
         <!-- Appointment Notification Card -->
         <com.google.android.material.card.MaterialCardView
@@ -116,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            app:cardBackgroundColor="@color/gray_800"
+            app:cardBackgroundColor="@color/logo_primary"
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp">
 
@@ -190,19 +164,6 @@
                                 android:background="@drawable/circle_background"
                                 android:padding="8dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_news"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_news"
-                                android:layout_alignEnd="@id/notification_badge_news"
-                                android:text="1+"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -233,23 +194,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_knowledge"
+                                android:src="@drawable/my_knowledge"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_knowledge"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_knowledge"
-                                android:layout_alignEnd="@id/notification_badge_knowledge"
-                                android:text="43"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -280,23 +228,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_diet"
+                                android:src="@drawable/my_diet"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_diet"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_diet"
-                                android:layout_alignEnd="@id/notification_badge_diet"
-                                android:text="1"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -364,23 +299,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_medication"
+                                android:src="@drawable/word_medication"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_medication"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_medication"
-                                android:layout_alignEnd="@id/notification_badge_medication"
-                                android:text="3"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -411,23 +333,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_tracking"
+                                android:src="@drawable/word_tracking"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_tracking"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_tracking"
-                                android:layout_alignEnd="@id/notification_badge_tracking"
-                                android:text="5"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -458,7 +367,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_emergency"
+                                android:src="@drawable/word_emergency"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
@@ -524,7 +433,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/ic_consultation"
+                            android:src="@drawable/word_consultation"
                             android:background="@drawable/circle_background"
                             android:padding="16dp" />
 
@@ -551,7 +460,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/ic_reports"
+                            android:src="@drawable/word_reports"
                             android:background="@drawable/circle_background"
                             android:padding="16dp" />
 
@@ -578,7 +487,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/ic_glucose"
+                            android:src="@drawable/word_glucose"
                             android:background="@drawable/circle_background"
                             android:padding="16dp" />
 
@@ -646,23 +555,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_lab"
+                                android:src="@drawable/word_lab"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_lab"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_lab"
-                                android:layout_alignEnd="@id/notification_badge_lab"
-                                android:text="2"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -693,23 +589,10 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_appointment"
+                                android:src="@drawable/word_appointment"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
-                            <TextView
-                                android:id="@+id/notification_badge_appointment"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_alignTop="@id/notification_badge_appointment"
-                                android:layout_alignEnd="@id/notification_badge_appointment"
-                                android:text="1"
-                                android:textColor="@color/white"
-                                android:textSize="10sp"
-                                android:textStyle="bold"
-                                android:background="@drawable/notification_badge"
-                                android:padding="4dp"
-                                android:gravity="center" />
 
                         </RelativeLayout>
 
@@ -740,7 +623,7 @@
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:src="@drawable/ic_goals"
+                                android:src="@drawable/word_goals"
                                 android:background="@drawable/circle_background"
                                 android:padding="16dp" />
 
