@@ -4,14 +4,14 @@
     <item android:bottom="0dp">
         <shape android:shape="rectangle">
             <solid android:color="@android:color/transparent" />
-            <stroke android:width="1dp" android:color="@color/logo_light" />
+            <stroke android:width="1dp" android:color="@color/logo_secondary" />
         </shape>
     </item>
     <!-- Focused state bottom border -->
     <item android:state_focused="true" android:bottom="0dp">
         <shape android:shape="rectangle">
             <solid android:color="@android:color/transparent" />
-            <stroke android:width="2dp" android:color="@color/logo_primary" />
+            <stroke android:width="2dp" android:color="@color/logo_accent" />
         </shape>
     </item>
 </layer-list>

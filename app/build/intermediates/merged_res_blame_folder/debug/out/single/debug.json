@@ -12,12 +12,12 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-mdpi\\hgf.png"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_news_room_image.png.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xhdpi\\news_room_image.png"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_news_room_image.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xxxhdpi\\news_room_image.png"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_news_room_image.png.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xhdpi\\news_room_image.png"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -36,12 +36,12 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\word_glucose.xml"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\anim_glow_pulse.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\anim\\glow_pulse.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_background.xml.flat",
@@ -88,20 +88,20 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_chat.xml"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_animated_background.xml.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\splash_animated_background.xml"
-    },
-    {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_df.png.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\df.png"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_news_room_image.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-hdpi\\news_room_image.png"
     },
     {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_animated_background.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\splash_animated_background.xml"
+    },
+    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_news_room_image.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xxhdpi\\news_room_image.png"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_df.png.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-xhdpi\\df.png"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_word_goals.xml.flat",
@@ -232,12 +232,12 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\ic_knowledge.xml"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_word_appointment.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\word_appointment.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_my_diet.png.flat",
@@ -300,12 +300,12 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xxxhdpi\\my_diet.png"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_my_knowledge.png.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xxxhdpi\\my_knowledge.png"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_my_diet.png.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-hdpi\\my_diet.png"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_my_knowledge.png.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable-xxxhdpi\\my_knowledge.png"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lab.xml.flat",
@@ -344,12 +344,12 @@
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_word_reports.xml.flat",
         "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\drawable\\word_reports.xml"
+    },
+    {
+        "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Work\\Glyco\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Work\\Glyco\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_reports.xml.flat",

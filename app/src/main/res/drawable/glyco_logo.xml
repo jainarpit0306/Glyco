@@ -5,9 +5,9 @@
     android:viewportWidth="512"
     android:viewportHeight="512">
     
-    <!-- Glassmorphism circle background -->
+    <!-- Glassmorphism circle background (blue tint) -->
     <path
-        android:fillColor="#E6F7F0"
+        android:fillColor="#E6EEFF"
         android:pathData="M256,64C350,64 448,128 448,256C448,384 350,448 256,448C162,448 64,384 64,256C64,128 162,64 256,64Z" />
     
     <!-- Main white circle -->
@@ -15,67 +15,67 @@
         android:fillColor="#FFFFFF"
         android:pathData="M256,96C320,96 416,128 416,256C416,384 320,416 256,416C192,416 96,384 96,256C96,128 192,96 256,96Z" />
     
-    <!-- Water droplet outline -->
+    <!-- Water droplet outline (accent blue) -->
     <path
         android:fillColor="#00000000"
-        android:strokeColor="#10B981"
+        android:strokeColor="#4A80FF"
         android:strokeWidth="8"
         android:pathData="M256,160C280,160 304,184 304,208C304,232 280,256 256,256C232,256 208,232 208,208C208,184 232,160 256,160Z" />
     
     <!-- Chart bars inside droplet -->
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M224,208h12v24h-12z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M244,200h12v32h-12z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M264,192h12v40h-12z" />
     
     <!-- Trending line -->
     <path
         android:fillColor="#00000000"
-        android:strokeColor="#10B981"
+        android:strokeColor="#4A80FF"
         android:strokeWidth="6"
         android:pathData="M224,220L244,216L264,212L284,208" />
     
     <!-- Upward arrow -->
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M280,208L288,200L296,208L288,216Z" />
     
     <!-- GLYCO text -->
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M160,320h16v8h-8v16h-8z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M168,328h8v16h-8z" />
     
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M192,320h16v24h-16z" />
     
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M224,320h16v12h-8v12h-8z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M232,332h8v12h-8z" />
     
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M256,320h16v8h-8v16h-8z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M264,328h8v16h-8z" />
     
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M288,320h16v8h-8v16h-8z" />
     <path
-        android:fillColor="#10B981"
+        android:fillColor="#4A80FF"
         android:pathData="M296,328h8v16h-8z" />
     
 </vector>

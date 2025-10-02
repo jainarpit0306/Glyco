@@ -6,7 +6,7 @@
         android:centerX="0.5"
         android:centerY="0.5"
         android:gradientRadius="120"
-        android:startColor="@color/logo_light"
-        android:centerColor="@color/logo_primary"
+        android:startColor="@color/logo_secondary"
+        android:centerColor="@color/logo_accent"
         android:endColor="@android:color/transparent" />
 </shape>

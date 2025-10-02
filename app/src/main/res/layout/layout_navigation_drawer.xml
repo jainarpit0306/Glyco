@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:orientation="vertical"
-    android:background="@color/white">
+    android:background="@color/logo_dark">
 
     <!-- Header with Profile Title -->
     <LinearLayout
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="20dp"
-        android:background="@color/white"
+        android:background="@color/logo_light"
         android:elevation="4dp"
         android:layout_margin="16dp"
         android:layout_marginTop="8dp"
@@ -59,7 +59,7 @@
             android:src="@drawable/ic_profile"
             android:background="@drawable/circle_background"
             android:padding="12dp"
-            android:tint="@color/logo_primary" />
+            android:tint="@color/logo_accent" />
 
         <!-- User Info -->
         <LinearLayout
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mr. VICKY SOLANKI"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium" />
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="File No.: M9302443344"
-                android:textColor="@color/teal_600"
+                android:textColor="@color/logo_text_secondary"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -103,14 +103,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="20dp"
-        android:background="@color/white"
+        android:background="@color/logo_light"
         android:layout_marginTop="8dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Settings"
-            android:textColor="@color/teal_800"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium"
@@ -132,14 +132,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_profile"
-                android:tint="@color/logo_primary" />
+                android:tint="@color/logo_accent" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="View Profile"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif" />
 
@@ -161,14 +161,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_appointment"
-                android:tint="@color/logo_primary" />
+                android:tint="@color/logo_accent" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="Appointment History"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif" />
 
@@ -190,7 +190,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_language"
-                android:tint="@color/logo_primary" />
+                android:tint="@color/logo_accent" />
 
             <TextView
                 android:layout_width="0dp"
@@ -198,7 +198,7 @@
                 android:layout_weight="1"
                 android:layout_marginStart="16dp"
                 android:text="Language Change"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif" />
 
@@ -215,7 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="English"
-                    android:textColor="@color/teal_600"
+                    android:textColor="@color/logo_text_secondary"
                     android:textSize="14sp" />
 
                 <ImageView
@@ -223,7 +223,7 @@
                     android:layout_height="16dp"
                     android:layout_marginStart="4dp"
                     android:src="@drawable/ic_arrow_down"
-                    android:tint="@color/logo_primary" />
+                    android:tint="@color/logo_accent" />
 
             </LinearLayout>
 
@@ -245,14 +245,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_about"
-                android:tint="@color/logo_primary" />
+                android:tint="@color/logo_accent" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="About Us"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif" />
 
@@ -277,7 +277,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="App Version: 2.9"
-            android:textColor="@color/teal_600"
+            android:textColor="@color/logo_text_secondary"
             android:textSize="12sp" />
 
     </LinearLayout>
